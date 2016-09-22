@@ -5,7 +5,7 @@
    ```rabbitmq-plugins enable rabbitmq_management```  
 
 3. Start RabbitMQ server with default node name (which is 'rabbit')  
-   ```rabbitmq-server``` 
+   ```rabbitmq-server```  
 
 4. Alternatively, start RabbitMQ in the background  
    ```rabbitmq-server -detached```  
