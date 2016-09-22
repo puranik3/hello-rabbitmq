@@ -7,7 +7,7 @@
 4. Alternatively, start RabbitMQ in the background  
    ```rabbitmq-server -detached```  
 5. Add user with password  
-   ```rabbitmqctl add_user gravity-cbs Infy123++```  
+   ```rabbitmqctl add_user gravity-cbs <password>```  
 6. Add a virtual host named gravityvhost  
    ```rabbitmqctl add_vhost gravityvhost```  
 7. Grant the user named gravity-cbs access to the virtual host called gravityvhost, with configure permissions on all resources whose names starts with "gravity-", and write and read permissions on all resources  
