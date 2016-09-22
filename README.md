@@ -4,7 +4,7 @@
 2. Enable management plugin to be ble to use admin UI  
    ```rabbitmq-plugins enable rabbitmq_management```  
 
-3. Start RabbitMQ server with default node name (which is 'rabbit')  
+3. Start RabbitMQ server with default node name (which is \'rabbit\')  
    ```rabbitmq-server```  
 
 4. Alternatively, start RabbitMQ in the background  
